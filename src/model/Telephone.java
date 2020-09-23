@@ -1,3 +1,5 @@
+package model;
+
 public class Telephone {
     String brand;
     String model;

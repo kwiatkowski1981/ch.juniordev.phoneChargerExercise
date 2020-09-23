@@ -1,3 +1,7 @@
+package application;
+
+import model.Telephone;
+
 public class PhoneTest {
 
     public static void main(String[] args) {
