@@ -45,4 +45,10 @@ public class Telephone {
     public void setChargeLevel(int chargeLevel) {
         this.chargeLevel = chargeLevel;
     }
+
+    public String printInfo(){
+        return getBrand() + ": " + getModel() + ", bateria: " + getBatteryCapacity() + "mAh" + ", "
+                + "charge level: " +getChargeLevel() + "%";
+    }
+
 }
