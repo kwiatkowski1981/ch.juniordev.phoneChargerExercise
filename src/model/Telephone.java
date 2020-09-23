@@ -13,6 +13,7 @@ public class Telephone {
         this.chargeLevel = chargeLevel;
     }
 
+
     public String getBrand() {
         return brand;
     }
